@@ -1,1 +1,7 @@
-alert("hello")
+//QUERY SELECTORS
+
+
+//EVENT LISTENERS
+
+
+//FUNCTIONS
