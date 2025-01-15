@@ -23,9 +23,6 @@ body {
 
 
 /*BODY*/
-#body {
-
-}
 
 #calculator-container {
 
@@ -40,6 +37,8 @@ input {
 }
 
 #buttons-container {
+    /* display: grid;
+    grid-template-rows: 4; */
 }
 
 .buttons {
@@ -49,6 +48,14 @@ input {
     border: none;
     /* color: white; */
     /* background-color: ; */
+}
+
+.buttons:hover {
+    /* background-color: ; */
+}
+
+.buttons:active {
+    /* background-position: ; */
 }
 
 /*FOOTER*/
