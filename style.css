@@ -3,11 +3,21 @@
     margin: 0;
 }
 
+body {
+    min-height: 100vh;   
+    display: flex;
+    flex-direction: column;
+}
+
 /*HEADER*/
 #header {
     background-color: aqua;
     display: flex;
     justify-content: center;
+}
+
+#heading {
+
 }
 
 
@@ -32,9 +42,19 @@ input {
 #buttons-container {
 }
 
+.buttons {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    /* color: white; */
+    /* background-color: ; */
+}
+
 /*FOOTER*/
 #footer {
     background-color: aqua;
     display: flex;
     justify-content: center;
+    margin-top: auto;
 }
