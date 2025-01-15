@@ -4,9 +4,10 @@
 }
 
 body {
-    min-height: 100vh;   
+    height: 100vh;   
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 /*HEADER*/
@@ -37,13 +38,14 @@ input {
 }
 
 #buttons-container {
-    /* display: grid;
-    grid-template-rows: 4; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
 
 .buttons {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border-radius: 15px;
     border: none;
     /* color: white; */
@@ -64,4 +66,5 @@ input {
     display: flex;
     justify-content: center;
     margin-top: auto;
+    flex-direction: column;
 }
