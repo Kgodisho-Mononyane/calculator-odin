@@ -9,7 +9,7 @@ body {
 
 /*HEADER*/
 #header {
-    background-color: aqua;
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
 }
@@ -45,7 +45,7 @@ input {
 .buttons {
     height: 50px;
     width: 50px;
-    border-radius: 15px;
+    border-radius: 50px;
     border: none;
     /* color: white; */
     /* background-color: ; */
@@ -61,7 +61,7 @@ input {
 
 /*FOOTER*/
 #footer {
-    background-color: aqua;
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     margin-top: auto;
