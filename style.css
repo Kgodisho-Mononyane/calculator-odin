@@ -98,6 +98,11 @@ input {
     margin-bottom: 0;
 }
 
+.link {
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
 .link:hover {
     color: #F97316;
 }
