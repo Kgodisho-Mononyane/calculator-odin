@@ -26,6 +26,9 @@ body {
 #calculator-container {
     max-width: 500px;
     background: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 input {
@@ -49,15 +52,15 @@ input {
     border-radius: 50px;
     border: none;
     /* color: white; */
-    /* background-color: ; */
+    background-color: white;
 }
 
 .buttons:hover {
-    /* background-color: ; */
+    background-color: rgb(221, 221, 221);
 }
 
 .buttons:active {
-    /* background-position: ; */
+    background-color: rgb(175, 175, 175);
 }
 
 /*FOOTER*/
