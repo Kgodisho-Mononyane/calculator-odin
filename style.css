@@ -63,6 +63,18 @@ input {
     background-color: rgb(175, 175, 175);
 }
 
+.operator {
+    background-color: #F97316;
+}
+
+.operator:hover {
+    background-color: #d36314;
+}
+
+.operator:active {
+    background-color: #b15412;
+}
+
 /*FOOTER*/
 #footer {
     background-color: #1F2937;
