@@ -64,6 +64,19 @@ input {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: auto;
     flex-direction: column;
+}
+
+.copyright,.link {
+    color: white;
+}
+
+.copyright {
+    margin-bottom: 0;
+}
+
+.link:hover {
+    color: #F97316;
 }
