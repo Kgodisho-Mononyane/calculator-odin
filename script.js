@@ -4,7 +4,8 @@ let operator = "";
 let number2 = "";
 
 //QUERY SELECTORS
-display = document.querySelector("#display")
+display = document.querySelector("#display");
+display.textContent = "hello"
 
 clearBtn = document.querySelector("#clear-btn");
 bracketsBtn = document.querySelector("#brackets");
@@ -65,6 +66,7 @@ function operate() {
 }
 
 function clear() {
+    display.textContent = "";
 }
 
 function brackets() {
