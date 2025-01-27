@@ -63,16 +63,20 @@ function brackets() {
 function percentage() {
 }
 
-function division() {
+function division(a, b) {
+    return a/b;
 }
 
-function multiplication() {
+function multiplication(a, b) {
+    return a * b;
 }
 
-function subtraction() {
+function subtraction(a, b) {
+    return a - b
 }
 
-function addition() {
+function addition(a, b) {
+    return a + b
 }
 
 function point() {
