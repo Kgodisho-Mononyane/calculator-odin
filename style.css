@@ -58,6 +58,7 @@ input {
     border-radius: 50px;
     border: none;
     background-color: rgb(243, 242, 242);
+    font-size: 15px;
 }
 
 .buttons:hover {
