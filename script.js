@@ -13,43 +13,73 @@ equalsBtn = document.querySelector("#equals");
 
 //EVENT LISTENERS
 clearBtn.addEventListener("click", () => {
-    clearBtn.style.backgroundColor = "red";
+    clear();
 })
 
 bracketsBtn.addEventListener("click", () => {
-    bracketsBtn.style.backgroundColor = "red";
+    brackets();
 })
 
 percentageBtn.addEventListener("click", () => {
-    percentageBtn.style.backgroundColor = "red";
+    percentage();
 })
 
 divisionBtn.addEventListener("click", () => {
-    divisionBtn.style.backgroundColor = "red";
+    division();
 })
 
 multiplicationBtn.addEventListener("click", () => {
-    multiplicationBtn.style.backgroundColor = "red";
+    multiplication();
 })
 
 subtractionBtn.addEventListener("click", () => {
-    subtractionBtn.style.backgroundColor = "red";
+    subtraction();
 })
 
 additionBtn.addEventListener("click", () => {
-    additionBtn.style.backgroundColor = "red";
+    addition();
 })
 
 pointBtn.addEventListener("click", () => {
-    pointBtn.style.backgroundColor = "red";
+    point();
 })
 
 deleteBtn.addEventListener("click", () => {
-    deleteBtn.style.backgroundColor = "red";
+    deleteFunction()
 })
 
 equalsBtn.addEventListener("click", () => {
-    equalsBtn.style.backgroundColor = "red";
+    equals();
 })
 
 //FUNCTIONS
+
+function clear() {
+}
+
+function brackets() {
+}
+
+function percentage() {
+}
+
+function division() {
+}
+
+function multiplication() {
+}
+
+function subtraction() {
+}
+
+function addition() {
+}
+
+function point() {
+}
+
+function deleteFunction() {
+}
+
+function equals() {
+}
