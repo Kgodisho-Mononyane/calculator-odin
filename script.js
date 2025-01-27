@@ -1,4 +1,11 @@
+//VARIABLES
+let number1 = "";
+let operator = "";
+let number2 = "";
+
 //QUERY SELECTORS
+display = document.querySelector("#display")
+
 clearBtn = document.querySelector("#clear-btn");
 bracketsBtn = document.querySelector("#brackets");
 percentageBtn = document.querySelector("#percentage");
@@ -53,6 +60,9 @@ equalsBtn.addEventListener("click", () => {
 })
 
 //FUNCTIONS
+function operate() {
+
+}
 
 function clear() {
 }
