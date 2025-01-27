@@ -5,7 +5,7 @@ let number2 = "";
 
 //QUERY SELECTORS
 display = document.querySelector("#display");
-display.textContent = "hello"
+display.textContent = "hello";
 
 clearBtn = document.querySelector("#clear-btn");
 bracketsBtn = document.querySelector("#brackets");
