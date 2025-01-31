@@ -75,21 +75,11 @@ function brackets() {
 function percentage() {
 }
 
-function division(a, b) {
-    return a/b;
-}
+const division = (a, b) => a/b;
+const multiplication = (a, b) => a * b;
+const subtraction = (a, b) => a - b;
+const addition = (a, b) => a + b;
 
-function multiplication(a, b) {
-    return a * b;
-}
-
-function subtraction(a, b) {
-    return a - b
-}
-
-function addition(a, b) {
-    return a + b
-}
 
 function point() {
 }
