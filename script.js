@@ -5,7 +5,6 @@ let number2 = "";
 
 //QUERY SELECTORS
 display = document.querySelector("#display");
-display.textContent = "hello";
 
 clearBtn = document.querySelector("#clear-btn");
 bracketsBtn = document.querySelector("#brackets");
@@ -53,7 +52,7 @@ pointBtn.addEventListener("click", () => {
 })
 
 deleteBtn.addEventListener("click", () => {
-    deleteFunction()
+    deleteFunction();
 })
 
 equalsBtn.addEventListener("click", () => {
@@ -66,7 +65,7 @@ function operate() {
 }
 
 function clear() {
-    display.textContent = "";
+    //function that clears out the display completely
 }
 
 function brackets() {
@@ -82,9 +81,11 @@ const addition = (a, b) => a + b;
 
 
 function point() {
+    //function that adds a dot to the display for fractional numbers
 }
 
 function deleteFunction() {
+    //function that deletes the last value of the display
 }
 
 function equals() {
