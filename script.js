@@ -4,18 +4,18 @@ let operator = "";
 let number2 = "";
 
 //QUERY SELECTORS
-display = document.querySelector("#display");
+const display = document.querySelector("#display");
 
-clearBtn = document.querySelector("#clear-btn");
-bracketsBtn = document.querySelector("#brackets");
-percentageBtn = document.querySelector("#percentage");
-divisionBtn = document.querySelector("#division");
-multiplicationBtn = document.querySelector("#multiplication")
-subtractionBtn = document.querySelector("#subtraction");
-additionBtn = document.querySelector("#addition");
-pointBtn = document.querySelector("#point");
-deleteBtn = document.querySelector("#delete");
-equalsBtn = document.querySelector("#equals");
+const clearBtn = document.querySelector("#clear-btn");
+const bracketsBtn = document.querySelector("#brackets");
+const percentageBtn = document.querySelector("#percentage");
+const divisionBtn = document.querySelector("#division");
+const multiplicationBtn = document.querySelector("#multiplication")
+const subtractionBtn = document.querySelector("#subtraction");
+const additionBtn = document.querySelector("#addition");
+const pointBtn = document.querySelector("#point");
+const deleteBtn = document.querySelector("#delete");
+const equalsBtn = document.querySelector("#equals");
 
 
 //EVENT LISTENERS
@@ -60,6 +60,11 @@ equalsBtn.addEventListener("click", () => {
 })
 
 //FUNCTIONS
+function appendToDisplay() {
+    display.value += input;
+}
+
+
 function operate() {
 
 }
