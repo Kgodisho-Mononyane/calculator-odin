@@ -1,11 +1,16 @@
+
 /* ALL */
 * {
     margin: 0;
     padding: 0;
+    
+    --universal-blue-bg-color: #1F2937; 
+}
+
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    --universal-blue-bg-color: #1F2937; 
 }
 /* HEADER */
 #header{
