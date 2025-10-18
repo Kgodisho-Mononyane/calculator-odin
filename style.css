@@ -5,7 +5,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    --universal-blue-bg-color: #1F2937; 
 }
 /* HEADER */
+#header{
+    background-color: var(--universal-blue-bg-color);
+    display: flex;
+    justify-content: center;
+}
 /* MAIN */
 /* FOOTER */
