@@ -100,3 +100,11 @@ function backspace() {
 function equals() {
     //do the mathematical operation
 }
+
+function operate(num1, operator, num2) {
+    add(num1, num2)
+}
+
+function populate() {
+    
+}
