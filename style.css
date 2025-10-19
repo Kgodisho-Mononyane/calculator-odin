@@ -10,6 +10,8 @@
     --hover-gray: rgb(221, 221, 221);
     --active-gray: rgb(175, 175, 175);
     --universal-orange-color:#F97316;
+    --hover-orange: #d36314;
+    --active-orange: #b15412;
 }
 
 body {
@@ -57,7 +59,7 @@ body {
 
 #buttons-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 10px;
     padding: 25px;
 }
@@ -88,6 +90,14 @@ body {
 
 .operator {
     background-color: var(--universal-orange-color);
+}
+
+.operator:hover {
+    background-color: var(--hover-orange);
+}
+
+.operator:active {
+    background-color: var(--active-orange);
 }
 
 /* FOOTER */
