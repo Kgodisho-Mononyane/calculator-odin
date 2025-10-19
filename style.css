@@ -13,7 +13,7 @@
     --hover-orange: #d36314;
     --active-orange: #b15412;
 
-    --display-height: 10vh;
+    --display-height: 15vh;
 }
 
 body {
@@ -27,6 +27,8 @@ body {
     background-color: var(--universal-blue-bg-color);
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: var(--display-height);
 }
 
@@ -58,7 +60,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    height: calc(100vh - (var(--display-height) + var(--display-height)))
+    height: calc(100vh - var(--display-height))
 }
 
 #calculator-container {
