@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     
-    --universal-blue-bg-color: #1F2937; 
+    --universal-blue-bg-color: #1F2937;
+    --universal-white-color: white; 
 }
 
 body {
@@ -18,5 +19,11 @@ body {
     display: flex;
     justify-content: center;
 }
+
+#heading {
+    color: var(--universal-white-color);
+    font-size: 40px;
+}
+
 /* MAIN */
 /* FOOTER */
