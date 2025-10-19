@@ -24,6 +24,7 @@ body {
     background-color: var(--universal-blue-bg-color);
     display: flex;
     justify-content: center;
+    height: 10vh;
 }
 
 #heading {
@@ -59,7 +60,7 @@ body {
 
 #buttons-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
 }
@@ -100,6 +101,14 @@ body {
     background-color: var(--active-orange);
 }
 
+#delete {
+    padding: 10px 10px;
+}
+
+#github {
+    padding: 4px;
+}
+
 /* FOOTER */
 #footer {
     background-color: var(--universal-blue-bg-color);
@@ -107,20 +116,21 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 10vh;
 }
 
 .copyright, .link {
     color: var(--universal-white-color);
 }
 
-/* .copyright {
+.copyright {
     margin-bottom: 0;
-} */
+}
 
-/* .link {
+.link {
     margin-top: 0;
     padding-bottom: 10px;
-} */
+}
 
 .link:hover {
     color: var(--universal-orange-color);
