@@ -6,6 +6,7 @@
     
     --universal-blue-bg-color: #1F2937;
     --universal-white-color: white; 
+    --universal-orange-color:#F97316;
 }
 
 body {
@@ -33,4 +34,21 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.copyright, .link {
+    color: var(--universal-white-color);
+}
+
+/* .copyright {
+    margin-bottom: 0;
+} */
+
+/* .link {
+    margin-top: 0;
+    padding-bottom: 10px;
+} */
+
+.link:hover {
+    color: var(--universal-orange-color);
 }
