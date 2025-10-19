@@ -5,6 +5,7 @@
     padding: 0;
     
     --universal-blue-bg-color: #1F2937;
+    --secondary-blue-bg-color: #283547;
     --universal-white-color: white; 
     --universal-orange-color:#F97316;
 }
@@ -36,11 +37,20 @@ body {
 
 #calculator-container {
     max-width: 500px;
-    background: #1F2937;
+    background: var(--universal-blue-bg-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 15px;
+}
+
+#display {
+    background: var(--secondary-blue-bg-color);
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    color: var(--universal-white-color);
+    font-size: 20px;
 }
 
 
