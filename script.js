@@ -1,3 +1,7 @@
+let num1;
+let operator;
+let num2;
+
 const buttonContainer = document.querySelector("#button-container")
 
 buttonContainer.addEventListener("click", (event) => {
