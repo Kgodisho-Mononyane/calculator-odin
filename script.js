@@ -62,3 +62,37 @@ buttonContainer.addEventListener("click", (event) => {
             break;  
     }
 })
+
+//FUNCTIONALITY
+
+function add(a, b) {
+    return a + b;
+}
+
+function subtract(a, b) {
+    return a - b;
+}
+
+function multiply(a, b) {
+    return a * b;
+}
+
+function divide(a, b) {
+    return a / b;
+}
+
+function remainder(a, b) {
+    return a % b;
+}
+
+function clear() {
+    //clear all data and content
+}
+
+function backspace() {
+    //remove one element one by one
+}
+
+function equals() {
+    //do the mathematical operation
+}
