@@ -6,6 +6,7 @@
     --universal-blue-bg-color: #1F2937;
     --secondary-blue-bg-color: #283547;
     --universal-white-color: white; 
+    --universal-black-color: black;
     --universal-orange-color:#F97316;
 }
 
@@ -57,6 +58,18 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
+}
+
+.buttons {
+    height: 50px;
+    width: 50px;
+    color: var(--universal-black-color);
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    background-color: var(--universal-white-color);
+    font-size: 15px;
+    cursor: pointer;
 }
 
 
