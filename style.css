@@ -34,11 +34,12 @@ body {
 
 #heading {
     color: var(--universal-white-color);
-    font-size: 40px;
+    font-size: 3.5rem;
 }
 
 .copyright, .link {
     color: var(--universal-white-color);
+    font-size: 0.6rem;
 }
 
 .copyright {
@@ -47,7 +48,10 @@ body {
 
 .link {
     margin-top: 0;
-    padding-bottom: 10px;
+}
+
+.link:active {
+    color: var(--active-orange);
 }
 
 .link:hover {
@@ -59,26 +63,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
     height: calc(100vh - var(--display-height))
 }
 
 #calculator-container {
-    max-width: 500px;
+    /* max-width: 500px; */
     background: var(--universal-blue-bg-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 1em;
 }
 
 #display {
     background: var(--secondary-blue-bg-color);
     border: none;
-    border-radius: 15px;
+    border-radius: 1rem;
     height: 60px;
     color: var(--universal-white-color);
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 #button-container {
