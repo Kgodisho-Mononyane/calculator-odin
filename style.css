@@ -111,6 +111,10 @@ body {
     background-color: var(--active-gray);
 }
 
+#delete-img {
+    pointer-events: none;
+}
+
 .dot {
     font-size: 30px;
 }
