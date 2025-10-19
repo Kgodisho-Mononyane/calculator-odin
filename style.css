@@ -12,19 +12,22 @@
     --universal-orange-color:#F97316;
     --hover-orange: #d36314;
     --active-orange: #b15412;
+
+    --display-height: 10vh;
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 /* HEADER */
 #header{
     background-color: var(--universal-blue-bg-color);
     display: flex;
     justify-content: center;
-    height: 10vh;
+    height: var(--display-height);
 }
 
 #heading {
@@ -38,6 +41,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    height: calc(100vh - (var(--display-height) + var(--display-height)))
 }
 
 #calculator-container {
@@ -58,7 +62,7 @@ body {
     font-size: 20px;
 }
 
-#buttons-container {
+#button-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -116,7 +120,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 10vh;
+    height: var(--display-height);
 }
 
 .copyright, .link {
