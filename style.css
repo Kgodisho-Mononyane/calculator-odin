@@ -7,6 +7,7 @@
     --secondary-blue-bg-color: #283547;
     --universal-white-color: white; 
     --universal-black-color: black;
+    --hover-gray: rgb(221, 221, 221);
     --universal-orange-color:#F97316;
 }
 
@@ -70,6 +71,10 @@ body {
     background-color: var(--universal-white-color);
     font-size: 15px;
     cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: var(--hover-gray);
 }
 
 
