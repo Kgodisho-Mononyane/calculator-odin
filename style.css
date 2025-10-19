@@ -8,6 +8,7 @@
     --universal-white-color: white; 
     --universal-black-color: black;
     --hover-gray: rgb(221, 221, 221);
+    --active-gray: rgb(175, 175, 175);
     --universal-orange-color:#F97316;
 }
 
@@ -75,6 +76,10 @@ body {
 
 .buttons:hover {
     background-color: var(--hover-gray);
+}
+
+.buttons:active {
+    background-color: var(--active-gray);
 }
 
 
