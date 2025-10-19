@@ -27,3 +27,10 @@ body {
 
 /* MAIN */
 /* FOOTER */
+#footer {
+    background-color: var(--universal-blue-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
