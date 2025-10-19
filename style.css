@@ -27,6 +27,15 @@ body {
 }
 
 /* MAIN */
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
 /* FOOTER */
 #footer {
     background-color: var(--universal-blue-bg-color);
