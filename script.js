@@ -5,10 +5,15 @@ let num2;
 const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
 
-display.textContent = 1234;
+display.value = "testing"
 
 buttons.forEach((button) => {
     button.addEventListener("click", (event) => {
+        if (button.id == "clear-btn") {
+            clear();
+        }
+        
+
         console.log(`${button.id} clicked`)
     })
 })
@@ -36,6 +41,7 @@ function remainder(a, b) {
 }
 
 function clear() {
+    display.value = "";
     //clear all data and content
 }
 
