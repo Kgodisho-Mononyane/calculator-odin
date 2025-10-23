@@ -2,7 +2,10 @@ let num1;
 let operator;
 let num2;
 
+const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
+
+display.textContent = 1234;
 
 buttons.forEach((button) => {
     button.addEventListener("click", (event) => {
