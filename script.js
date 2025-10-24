@@ -85,14 +85,5 @@ function operate() {
     } else {
         result = "Error";
     }
-
     display.value = result;
 }
-
-
-
-
-
-
-
-
