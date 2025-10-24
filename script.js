@@ -10,6 +10,27 @@ buttons.forEach((button) => {
         } else if (button.id == "delete-btn") {
             backspace();
             //remove last element from operate function
+        } else if (button.id == "addition") {
+            appendToDisplay("+");
+            //operate
+        } else if (button.id == "subtraction") {
+            appendToDisplay("-");
+            //operate
+        } else if (button.id == "multiplication") {
+            appendToDisplay("x");
+            //operate
+        } else if (button.id == "division") {
+            appendToDisplay("/");
+            //operate
+        } else if (button.id == "remainder") {
+            appendToDisplay("%");
+            //operate
+        } else if (button.id == "equals") {
+            //operate() function
+        } else if (button.id == "point") {
+            appendToDisplay(".")
+        } else {
+            appendToDisplay(button.textContent);
         }
         
 
