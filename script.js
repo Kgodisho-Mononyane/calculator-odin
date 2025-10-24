@@ -1,6 +1,43 @@
 //SET display
 //SET Buttons
 
+/*
+FOR all buttons
+    button addEventListener
+        IF the button is clear THEN
+            clear display
+            clear out operate function
+        ELSEIF the buttons is backspace THEN
+            remove the last element from display
+            remove last element from operate function
+        ELSEIF operator THEN
+            ADD that respective operators function
+            add the operator to the display
+        ELSEIF the button is equals THEN
+            operate function
+            append operate value to display
+        ElSE the button is a number THEN
+            append value to display
+            add value to operate function
+        ENDIF
+
+FUNCTION add
+FUNCTION subtract
+FUNCTION multiply
+FUNCTION divide
+FUNCTION remainder
+FUNCTION clear
+FUNCTION backspace
+FUNCTION operate
+FUNCTION
+
+
+
+
+
+
+        */
+
 
 
 const display = document.querySelector("#display");
@@ -48,14 +85,6 @@ function backspace() {
     //remove one element one by one
 }
 
-function equals() {
-    //do the mathematical operation
-}
-
 function operate(num1, operator, num2) {
     add(num1, num2)
-}
-
-function populate() {
-    
 }
