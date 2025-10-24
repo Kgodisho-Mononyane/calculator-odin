@@ -46,17 +46,6 @@ body {
     margin-bottom: 0;
 }
 
-.link {
-    margin-top: 0;
-}
-
-.link:active {
-    color: var(--active-orange);
-}
-
-.link:hover {
-    color: var(--universal-orange-color);
-}
 
 /* MAIN */
 #main {

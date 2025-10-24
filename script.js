@@ -1,7 +1,6 @@
 const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
 
-
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
         if (button.id == "clear-btn") {
@@ -27,7 +26,6 @@ buttons.forEach((button) => {
         }
     });            
 });
-
 
 //FUNCTIONALITY
 function add(a, b) {return a + b;}
