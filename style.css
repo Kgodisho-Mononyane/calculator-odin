@@ -37,15 +37,11 @@ body {
     font-size: 3.5rem;
 }
 
-.copyright, .link {
+.copyright {
+    margin-bottom: 0;
     color: var(--universal-white-color);
     font-size: 0.6rem;
 }
-
-.copyright {
-    margin-bottom: 0;
-}
-
 
 /* MAIN */
 #main {
@@ -127,5 +123,3 @@ body {
 #github {
     padding: 4px;
 }
-
-
