@@ -1,15 +1,23 @@
 const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
 
+
+buttons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+        if (button.id == "clear-btn") {
+            clear();
+            //clear out operate function
+        } else if (button.id == "delete-btn") {
+            backspace();
+            //remove last element from operate function
+        }
+        
+
+        console.log(`${button.id} clicked`)
+    })
 /*
-FOR all buttons
-    button addEventListener
-        IF button is clear THEN
-            clear display
-            clear out operate function
-        ELSEIF buttons is backspace THEN
-            remove the last element from display
-            remove last element from operate function
+            
+            
         ELSEIF operator THEN
             ADD that respective operators function
             add the operator to the display
@@ -21,18 +29,8 @@ FOR all buttons
             add value to operate function
         ENDIF
 */
-/*
-buttons.forEach((button) => {
-    button.addEventListener("click", (event) => {
-        if (button.id == "clear-btn") {
-            clear();
-        }
-        
-
-        console.log(`${button.id} clicked`)
-    })
 })
-*/
+
 
 //FUNCTIONALITY
 function add(a, b) {
@@ -65,12 +63,17 @@ function clear() {
 }
 
 function backspace() {
+    console.log("backspace clicked")
     //remove last display element
     //remove last function element
 }
 
+function appendToDisplay(input) {
+    display.value += input;
+}
+
 function operate(num1, operator, num2) {
-     // take in num1, num2 and operator
+    // take in num1, num2 and operator
     // IF num1, num2 or operator is missing THEN
     //     return Null
 
