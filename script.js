@@ -56,10 +56,20 @@ function appendToDisplay(input) {
 }
 
 function operate(num1, operator, num2) {
-    // take in num1, num2 and operator
-    // IF num1, num2 or operator is missing THEN
-    //     return Null
+    let displayValue = display.value;
+    let operator = null;
 
+    if (displayValue.includes("+")) operator = "+";
+    else if (displayValue.includes("-")) operator = "-";
+    else if (displayValue.includes("x")) operator = "x";
+    else if (displayValue.includes("/")) operator = "/";
+    else if (displayValue.includes("%")) operator = "%";
+
+    if (!operator) {
+        return "Error";
+    }
+    
+    
     if (operator == "add") {
         return add(num1,num2);
     } else if (operator == "subtract") {
