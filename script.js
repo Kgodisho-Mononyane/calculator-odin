@@ -6,50 +6,27 @@ buttons.forEach((button) => {
     button.addEventListener("click", () => {
         if (button.id == "clear-btn") {
             clear();
-            //clear out operate function
         } else if (button.id == "delete-btn") {
             backspace();
         } else if (button.id == "addition") {
             appendToDisplay("+");
-            //operate
         } else if (button.id == "subtraction") {
             appendToDisplay("-");
-            //operate
         } else if (button.id == "multiplication") {
             appendToDisplay("x");
-            //operate
         } else if (button.id == "division") {
             appendToDisplay("/");
-            //operate
         } else if (button.id == "remainder") {
             appendToDisplay("%");
-            //operate
         } else if (button.id == "equals") {
-            //operate() function
+            operate();
         } else if (button.id == "point") {
             appendToDisplay(".")
         } else {
             appendToDisplay(button.textContent);
         }
-        
-
-        console.log(`${button.id} clicked`)
-    })
-/*
-            
-            
-        ELSEIF operator THEN
-            ADD that respective operators function
-            add the operator to the display
-        ELSEIF the button is equals THEN
-            operate function
-            append operate value to display
-        ElSE the button is a number THEN
-            append value to display
-            add value to operate function
-        ENDIF
-*/
-})
+    });            
+});
 
 
 //FUNCTIONALITY
