@@ -68,6 +68,10 @@ function operate(num1, operator, num2) {
     if (!operator) {
         return "Error";
     }
+
+    let [num1, num2] = displayValue.split(operator);
+    num1 = parseFloat(num1);
+    num2 = parseFloat(num2);
     
     
        
