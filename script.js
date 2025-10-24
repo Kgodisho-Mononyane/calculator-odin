@@ -1,11 +1,10 @@
-let num1;
-let operator;
-let num2;
+//SET display
+//SET Buttons
+
+
 
 const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
-
-display.value = "testing"
 
 buttons.forEach((button) => {
     button.addEventListener("click", (event) => {
