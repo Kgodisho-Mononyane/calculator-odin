@@ -54,17 +54,9 @@ buttons.forEach((button) => {
 
 
 //FUNCTIONALITY
-function add(a, b) {
-    return a + b;
-}
-
-function subtract(a, b) {
-    return a - b;
-}
-
-function multiply(a, b) {
-    return a * b;
-}
+function add(a, b) {return a + b;}
+function subtract(a, b) {return a - b;}
+function multiply(a, b) {return a * b;}
 
 function divide(a, b) {
     if (b == 0) {
@@ -74,16 +66,14 @@ function divide(a, b) {
     }
 }
 
-function remainder(a, b) {
-    return a % b;
-}
+function remainder(a, b) {return a % b;}
 
 function clear() {
     display.value = "";
-    //remove operate function content 
 }
 
 function backspace() {
+    display.value = display.value.slice(0, -1);
     console.log("backspace clicked")
     //remove last display element
     //remove last function element
