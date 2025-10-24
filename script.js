@@ -3,13 +3,12 @@ const buttons = document.querySelectorAll("button");
 
 
 buttons.forEach((button) => {
-    button.addEventListener("click", (event) => {
+    button.addEventListener("click", () => {
         if (button.id == "clear-btn") {
             clear();
             //clear out operate function
         } else if (button.id == "delete-btn") {
             backspace();
-            //remove last element from operate function
         } else if (button.id == "addition") {
             appendToDisplay("+");
             //operate
