@@ -55,9 +55,10 @@ function appendToDisplay(input) {
     display.value += input;
 }
 
-function operate(num1, operator, num2) {
+function operate() {
     let displayValue = display.value;
     let operator = null;
+    let result;
 
     if (displayValue.includes("+")) operator = "+";
     else if (displayValue.includes("-")) operator = "-";
@@ -73,8 +74,21 @@ function operate(num1, operator, num2) {
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
     
-    
-       
+    if (operator == "+") {
+        result = add(num1, num2);
+    } else if (operator == "-") {
+        result = subtract(num1, num2);
+    } else if (operator == "x") {
+        result = multiply(num1, num2);
+    } else if (operator == "/") {
+        result = divide(num1, num2);
+    } else if (operator == "%") {
+        result = remainder(num1, num2)
+    } else {
+        result = "Error";
+    }
+
+    display.value = result;
 }
 
 
