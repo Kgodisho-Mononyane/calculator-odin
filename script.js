@@ -33,16 +33,15 @@ buttons.forEach((button) => {
 function add(a, b) {return a + b;}
 function subtract(a, b) {return a - b;}
 function multiply(a, b) {return a * b;}
+function remainder(a, b) {return a % b;}
 
 function divide(a, b) {
     if (b == 0) {
-        return null;
+        return "Error";
     } else {
         return a / b;
     }
 }
-
-function remainder(a, b) {return a % b;}
 
 function clear() {
     display.value = "";
@@ -50,9 +49,6 @@ function clear() {
 
 function backspace() {
     display.value = display.value.slice(0, -1);
-    console.log("backspace clicked")
-    //remove last display element
-    //remove last function element
 }
 
 function appendToDisplay(input) {
